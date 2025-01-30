@@ -1,0 +1,487 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* .container{
+
+} */
+
+.logo{
+    margin: 10px 100px;
+}
+
+.atas{
+    justify-content: space-between;
+    display: flex;
+    padding: 1vh;
+    position: fixed;
+    width: 200vh;
+    background-color: white;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+.navbar{
+    margin: 20px 200px;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.navbar a:hover{
+    color: #F39C12;
+}
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(images/back2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    color: white;
+    flex-direction: column;
+}
+.tulisan{
+    width: 950px;
+    margin-bottom: 20px;
+}
+.tulisan h1{
+    font-size: 40px;
+}
+.tulisan h4{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+.tombol{
+    display: flex;
+    
+}
+
+.lm{
+    background-color: #2C2E50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 2px;
+    font-size: 14px;
+}
+.lm:hover{
+    background-color: white;
+    color: #2C2E50;
+}
+.vc{
+    background-color: #F39C12;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 2px;
+    font-size: 14px;
+}
+.vc:hover{
+    background-color: white;
+    color: #F39C12;
+}
+.text{
+    margin: 100px 0px;
+}
+.judul{
+    text-align: center;
+    align-items: center;
+    margin: 100px 0px 20px 0px  ;
+}
+.judul h1{
+    font-size: 40px;
+}
+.feature{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+}
+.kiri{
+    width: 350px;
+    /* margin-left: 100px; */
+    padding: 20px;
+    border-radius: 15px;
+}
+.kiri:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+.tengah{
+    width: 350px;
+    /* margin: 0px -50px; */
+    padding: 20px;
+    border-radius: 15px;
+}
+.tengah:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+.kanan{
+    width: 350px;
+    /* margin-right: 100px; */
+    padding: 20px;
+    border-radius: 15px;
+}
+.kanan:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+.judul{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.courses{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px 100px 100px;
+}
+.left{
+    padding: 20px; 
+    border-radius: 15px;
+}
+.left:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+.center{
+    padding: 20px;
+    border-radius: 15px;
+}
+.center:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+.right{
+    padding: 20px;
+    border-radius: 15px;
+}
+.right:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+
+.right1{
+    margin-top: 30px;
+}
+
+.right2{
+    padding: 20px;
+    border-radius: 15px;
+}
+.right2:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+
+.courses2{
+    display: flex;
+    margin: -30px 100px 100px 100px;
+}
+.left2{
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.left2:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+.center2{
+    margin-left: 70px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.center2:hover{
+    box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
+}
+.bintang{
+    display: flex;
+    margin: 0px -5px;
+}
+
+.bintang p{
+    margin: -3px 0px 0px 0px;
+}
+.dalem{
+    margin: 10px 0px 0px 10px;
+}
+/* text selesai */
+
+.registration{
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(signup.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tekskiri{
+    padding: 200px 100px;
+    color: white;
+}
+.judulpoto h1{
+    font-size: 50px;
+}
+.judulpoto h4{
+    font-weight: 400;
+}
+.waktu{
+    padding: 50px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: ;
+}
+.days{
+    margin: 0px 5px;
+    background-color: #ffffff40;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.hours{
+    margin: 0px 5px;
+    background-color: #ffffff40;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.minute{
+    margin: 0px 5px;
+    background-color: #ffffff40;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.second{    
+    margin: 0px 5px;
+    background-color: #ffffff40;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form{
+    margin: 100px 150px 0px 0px;
+    height: 38vh;
+    padding: 40px 0px 10px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+.form h2{
+    font-size: 20px;
+    text-align: center;
+}
+.form input{
+    margin: 10px 0px 30px 50px;
+    padding: 15px 10px;
+    border: 1px solid #2C2E50;
+    display: block;
+}
+
+.submit{
+    color: white;
+    text-align: center;
+    background-color: #F39C12;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 190px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.submit:hover{
+    background-color: white;
+    color: #2C2E50;
+    transition: 0.5s;
+}
+
+
+.community{
+    margin-bottom: 150px;
+}
+
+
+.orang{
+    display: flex;
+    justify-content: center;
+}
+.org{
+    margin: 0px 5px;
+    background-color: #fff8ea;
+    text-align: center;
+    padding: 30px 100px;
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+.org:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+.orang .org i{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #2C2E50;
+}
+.orang .org i:hover{
+    background-color: #2C2E50;
+    color: white;
+    transition: 0.3s;
+}
+
+
+footer{
+    padding: 8vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer .foot1{
+    padding-bottom: 40px;
+}
+footer .foot1 h3{
+    margin-bottom: 30px;
+}
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.foot1 p{
+    color: #7b838a;
+}
+footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    font-weight: 600;
+}
+
+footer .subscribe a.yellow {
+    color: #2c2c2c;
+    background-color: #fdc938;
+    transition: 0.3s ease;
+}
+
+footer .subscribe a:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+.copy{
+    color: white;
+    margin: -140px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.copy p{
+    margin-left: 150px;
+}
+.copy .icon{
+    margin-right: 150px;
+}
+.icon i{
+    margin: 0px 2px;
+    border: 1px solid #2C2E50;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.icon i:hover{
+    background-color: #F39C12;
+    color: #2C2E50;
+    transition: 0.3s;
+}
+
+
+
+@media(max-width:666px){
+    /* AWESOME START */
+    .text .judul .about h1{
+        font-size: 24px;
+    }
+    .text .judul p{
+        font-size: 12px;
+    }
+    .text .feature{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text .feature .kiri{
+        justify-content: center;
+        align-items: center;
+    }
+    .text .feature .tengah{
+        justify-content: center;
+        align-items: center;
+    }
+    .text .feature .kanan{
+        justify-content: center;
+        align-items: center;
+    }
+    /*  AWESOME END */
+
+    /* COURSES START */
+    .text2 .judul .coursess h1{
+        font-size: 24px;
+    }
+    .text2 .judul p{
+        font-size: 12px;
+    }
+    .text2 .courses{
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .text2 .courses2{
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    /* COURSES END */
+    /* REGISTRATION START */
+    .registration{
+        /* flex-direction: column; */
+    }
+
+    /* REGISTRATION END */
+}
