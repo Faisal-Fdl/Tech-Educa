@@ -19,21 +19,21 @@ body{
 
 .atas{
     justify-content: space-between;
+    align-items: center;
     display: flex;
     padding: 1vh;
     position: fixed;
-    width: 200vh;
+    width: 100%;
     background-color: white;
     box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
 }
-.navbar{
-    margin: 20px 200px;
-}
+
 .navbar a{
     text-decoration: none;
     margin: 0px 15px;
+    color: #101c32;
 }
 .navbar a:hover{
     color: #F39C12;
@@ -148,8 +148,8 @@ body{
 }
 .courses{
     display: flex;
-    justify-content: space-around;
-    margin: 0px 100px 100px 100px;
+    justify-content: center;
+    gap: 10px;
 }
 .left{
     padding: 20px; 
@@ -195,10 +195,11 @@ body{
 
 .courses2{
     display: flex;
-    margin: -30px 100px 100px 100px;
+    justify-content: center;
+    gap: 10px;
+    margin: 5vh 0;
 }
 .left2{
-    margin-left: 30px;
     padding: 20px;
     border-radius: 15px;
 }
@@ -209,7 +210,6 @@ body{
     -moz-box-shadow: 8px 7px 17px -1px rgba(0,0,0,0.75);
 }
 .center2{
-    margin-left: 70px;
     padding: 20px;
     border-radius: 15px;
 }
@@ -256,7 +256,6 @@ body{
     padding: 50px 0px;
     display: flex;
     text-align: center;
-    justify-content: ;
 }
 .days{
     margin: 0px 5px;
@@ -327,12 +326,14 @@ body{
 .orang{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 .org{
     margin: 0px 5px;
     background-color: #fff8ea;
     text-align: center;
-    padding: 30px 100px;
+    padding: 30px 70px;
     box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
@@ -436,10 +437,12 @@ footer .subscribe a:hover{
 
 @media(max-width:666px){
     /* AWESOME START */
-    .text .judul .about h1{
+    .text .judul .about h1,
+    .community .judul h1{
         font-size: 24px;
     }
-    .text .judul p{
+    .text .judul p,
+    .community .judul p{
         font-size: 12px;
     }
     .text .feature{
@@ -471,17 +474,75 @@ footer .subscribe a:hover{
     }
     .text2 .courses{
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
     }
     .text2 .courses2{
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .right2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .left2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .center2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .dalem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .dalem img{
+        width: 200px;
+    }
+    .bintang img{
+        width: 15px;
+        height: 15px;
     }
     /* COURSES END */
     /* REGISTRATION START */
-    .registration{
-        /* flex-direction: column; */
-    }
+    
 
     /* REGISTRATION END */
 }
